@@ -21,10 +21,10 @@
     "url": "https://github.com/porla/porla/issues"
   },
   "homepage": "https://porla.org",
-  "devDependencies": {},
   "dependencies": {
-    "@porla/libtorrent": "^0.24.0",
+    "@porla/libtorrent": "file:../libtorrent",
     "lodash": "^4.17.15",
+    "sqlite3": "^5.0.0",
     "winston": "^3.2.1"
   }
 }
